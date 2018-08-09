@@ -1,0 +1,52 @@
+#images{
+	width: 350px;
+	height: 350px;
+	overflow: hidden;
+
+}
+.image5,.image6,.image7,.image8,.image9,.image10,
+.image11,.image12,.image13,.image14,.image15,.image16
+{
+	width: 350px;
+	height: 350px;
+	left: 7px;
+	position: relative;
+	top: 1px;
+	transition: transform 1s linear;
+
+}
+#image5,#image6,#image7,#image8,#image9,#image10,
+#image11,#image12,#image13,#image14,#image15,#image16
+
+{
+	float: left;
+	width: 350px;
+	height: 400px;
+	border:1px solid black;
+}
+#image6,#image7,#image9,#image10,
+#image12,#image13,#image15,#image16
+
+{
+	margin-left:80px;
+}
+
+
+.image5:hover,.image6:hover,.image7:hover,
+.image8:hover,.image9:hover,.image10:hover,
+.image11:hover,.image12:hover,.image13:hover,
+.image14:hover,.image15:hover,.image16:hover
+{
+	transform:scale(1.5);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    size: 50px;
+    }
+    .container {
+    position: relative;
+    color: blue;
+}
